@@ -13,7 +13,7 @@ namespace Teamwork
             double Diameter  = 6371;
             double Radius = Diameter / 2;
             double SurfaceArea = 4*Math.PI*Math.Pow(2, Radius);
-
+            Console.WriteLine(SurfaceArea);
         }
 
         public void task2()
@@ -22,6 +22,7 @@ namespace Teamwork
             double Diameter = 6371;
             double Radius = Diameter / 2;
             double Volume = 4 / 3 * Math.PI * Math.Pow(3, Radius);
+            Console.WriteLine(Volume);
         }
 
         public void task3()
