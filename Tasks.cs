@@ -8,21 +8,21 @@ namespace Teamwork
 {
     internal class Tasks
     {
-        public void task1()
+        public double task1()
         {
             double Diameter  = 6371;
             double Radius = Diameter / 2;
             double SurfaceArea = 4*Math.PI*Math.Pow(2, Radius);
-            Console.WriteLine(SurfaceArea);
+            return (SurfaceArea);
         }
 
-        public void task2()
+        public double task2()
 
         {
             double Diameter = 6371;
             double Radius = Diameter / 2;
             double Volume = 4 / 3 * Math.PI * Math.Pow(3, Radius);
-            Console.WriteLine(Volume);
+            return (Volume);
         }
 
         public void task3()
