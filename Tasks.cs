@@ -30,8 +30,22 @@ namespace Teamwork
 
             int krastine = 10;
             int krastine2 = 15;
-            int izambine = ((krastine^2 + krastine2^2)^1/2);
+            int izambine = ((krastine^2 + krastine2^2)^(1/2));
             Console.WriteLine("Trikampio krastiniu ilgiai yra {0}, {1}, tokio trikampio izambine bus {2} ", krastine, krastine2, izambine);
+        }
+        public void task4()
+        {
+            double SurfaceArea = 1;
+            double Volume = 1;
+            int izambine = 1;
+            Console.WriteLine("**********************************");
+            Console.WriteLine("* Viso kintamųjų: 3");
+            Console.WriteLine("* SurfaceArea: {0}", SurfaceArea);
+            Console.WriteLine("* Volume: {0}", Volume);
+            Console.WriteLine("* izambine: {0}", izambine);
+            Console.WriteLine("* Suma: " + SurfaceArea + Volume + izambine);
+            Console.WriteLine("* Vidurkis: " + (SurfaceArea + Volume + izambine) / 3);
+            Console.WriteLine("**********************************");
         }
     }
 }

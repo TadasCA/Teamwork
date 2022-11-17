@@ -12,7 +12,10 @@ namespace Teamwork
         static void Main(string[] args)
         {
             Tasks task = new Tasks();
+            task.task1();
+            task.task2();
             task.task3();
+            task.task4();
         }
     }
 }
